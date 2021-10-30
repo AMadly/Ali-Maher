@@ -5,12 +5,9 @@ import org.testng.annotations.Test;
 
 import Base.TestBase;
 import Pages.LoginPage;
-import Pages.SecureAreaPage;
 
 public class LoginPageTest extends TestBase {
-     LoginPage loginpage ;
-     SecureAreaPage secureareapage;
-     
+     LoginPage loginpage ;     
     
     String username ;
     String password;
@@ -30,9 +27,9 @@ public class LoginPageTest extends TestBase {
     	loginpage.SetPassword(password);
     	
     	System.out.println("press login");
-    	secureareapage = loginpage.ClickSubmitButton();
+    	loginpage.ClickSubmitButton();
     	
-        String loginsuccess = secureareapage.GetSuccessLoginText();
+        String loginsuccess = loginpage.GetSuccessLoginText();
         System.out.println("Check login is successful");
         
         Assert.assertTrue(loginsuccess.contains("Log Out"));
@@ -54,7 +51,7 @@ public class LoginPageTest extends TestBase {
         loginpage.SetPassword(password);
         
         System.out.println("press submit");
-    	secureareapage = loginpage.ClickSubmitButton();
+    	loginpage.ClickSubmitButton();
     	
     	String loginuserfailed = loginpage.GetFailedEmailLoginText();
         Assert.assertTrue(loginuserfailed.contains("The email address you entered isn't connected to an account"));
@@ -77,7 +74,7 @@ public class LoginPageTest extends TestBase {
         loginpage.SetPassword(password);
         
         System.out.println("press submit");
-    	secureareapage = loginpage.ClickSubmitButton();
+    	loginpage.ClickSubmitButton();
     	
         String loginpassfailed = loginpage.GetFailedPassLoginText();
         Assert.assertTrue(loginpassfailed.contains("The password that you've entered is incorrect")); 

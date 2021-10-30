@@ -20,7 +20,7 @@ public class TestBase {
         driver.get("https://developers.facebook.com/apps/296019418796805");
         
         System.out.println("Maximize window");
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
         Thread.sleep(2000);
         
         

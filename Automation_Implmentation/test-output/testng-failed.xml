@@ -7,7 +7,7 @@
         <methods>
           <include name="ReturnToHome"/>
           <include name="Quit"/>
-          <include name="FailedPasswordLogin"/>
+          <include name="SuccessfullLogin"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- Tests.LoginPageTest -->
