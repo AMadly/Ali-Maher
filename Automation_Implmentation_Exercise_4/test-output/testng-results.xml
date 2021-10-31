@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-31T03:11:56 EET" name="Default suite" finished-at="2021-10-31T03:11:58 EET" duration-ms="2047">
+    <groups>
+    </groups>
+    <test started-at="2021-10-31T03:11:56 EET" name="Default test" finished-at="2021-10-31T03:11:58 EET" duration-ms="2047">
+      <class name="Tests.POST_Testcases">
+        <test-method signature="CheckPostResponseFailWhenRemoveMandatoryParam()[pri:0, instance:Tests.POST_Testcases@1700915]" started-at="2021-10-31T03:11:56 EET" name="CheckPostResponseFailWhenRemoveMandatoryParam" finished-at="2021-10-31T03:11:56 EET" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostResponseFailWhenRemoveMandatoryParam -->
+        <test-method signature="CheckPostResponseSuccess()[pri:0, instance:Tests.POST_Testcases@1700915]" started-at="2021-10-31T03:11:56 EET" name="CheckPostResponseSuccess" finished-at="2021-10-31T03:11:57 EET" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostResponseSuccess -->
+        <test-method signature="CheckPostResponseSuccessWhenRemoveOptionalParam()[pri:0, instance:Tests.POST_Testcases@1700915]" started-at="2021-10-31T03:11:57 EET" name="CheckPostResponseSuccessWhenRemoveOptionalParam" finished-at="2021-10-31T03:11:57 EET" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPostResponseSuccessWhenRemoveOptionalParam -->
+      </class> <!-- Tests.POST_Testcases -->
+      <class name="Tests.GET_Testcases">
+        <test-method signature="CheckGetIdContainsCorrectName()[pri:0, instance:Tests.GET_Testcases@3d74bf60]" started-at="2021-10-31T03:11:57 EET" name="CheckGetIdContainsCorrectName" finished-at="2021-10-31T03:11:57 EET" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGetIdContainsCorrectName -->
+        <test-method signature="CheckGetIdWithIncorrectName()[pri:0, instance:Tests.GET_Testcases@3d74bf60]" started-at="2021-10-31T03:11:57 EET" name="CheckGetIdWithIncorrectName" finished-at="2021-10-31T03:11:57 EET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGetIdWithIncorrectName -->
+        <test-method signature="CheckGetResponseFail()[pri:0, instance:Tests.GET_Testcases@3d74bf60]" started-at="2021-10-31T03:11:57 EET" name="CheckGetResponseFail" finished-at="2021-10-31T03:11:57 EET" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGetResponseFail -->
+        <test-method signature="CheckGetResponseSuccess()[pri:0, instance:Tests.GET_Testcases@3d74bf60]" started-at="2021-10-31T03:11:57 EET" name="CheckGetResponseSuccess" finished-at="2021-10-31T03:11:57 EET" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckGetResponseSuccess -->
+        <test-method signature="PostThenGetNewProductByID()[pri:0, instance:Tests.GET_Testcases@3d74bf60]" started-at="2021-10-31T03:11:57 EET" name="PostThenGetNewProductByID" finished-at="2021-10-31T03:11:57 EET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostThenGetNewProductByID -->
+      </class> <!-- Tests.GET_Testcases -->
+      <class name="Tests.DELETE_Testcases">
+        <test-method signature="PostThenDeleteNewProductByID()[pri:0, instance:Tests.DELETE_Testcases@4f209819]" started-at="2021-10-31T03:11:57 EET" name="PostThenDeleteNewProductByID" finished-at="2021-10-31T03:11:57 EET" duration-ms="332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostThenDeleteNewProductByID -->
+        <test-method signature="PostThenDeleteNewProductByIDx2()[pri:0, instance:Tests.DELETE_Testcases@4f209819]" started-at="2021-10-31T03:11:57 EET" name="PostThenDeleteNewProductByIDx2" finished-at="2021-10-31T03:11:58 EET" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostThenDeleteNewProductByIDx2 -->
+      </class> <!-- Tests.DELETE_Testcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
